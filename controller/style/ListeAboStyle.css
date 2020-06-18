@@ -1,0 +1,330 @@
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+background-image:url(images/fond.png);
+background-attachment:fixed;
+}
+
+.wrapper
+{
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.mainbody
+{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.col1
+{
+    width: 23%;
+    float: left;
+    height: 300px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.col2
+{
+    width: 40%;
+    margin-left: 30%;
+    min-width: 300px;
+    margin-right: 0%;
+    background-color: rgba(145, 167, 175, 0.349);
+    border: 1px solid grey;
+
+}
+
+.box
+{
+    width: 97%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+
+
+
+}
+
+.text
+{
+    width: 78%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid grey;
+}
+
+.submit
+{
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(48, 73, 216);
+    width: 20%;
+    height: 40px;
+}
+
+.titre_Tweet
+{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid grey;
+}
+
+
+
+
+
+.menu_footer ul{
+	height:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	list-style:none;
+}
+
+.icon_contact
+{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_contact2
+{
+    width: 35px;
+	height: 30px;
+}
+
+.menu_footer li{
+    border-radius: 20px;
+}
+
+.input-field {
+    height: 90px;
+    width: 100%;
+    border-style: none;
+    outline-style: none;
+    resize: none;
+    font-size: 1.8rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: rgba(199, 199, 199, 0.562);
+    
+  }
+
+  .Button 
+  {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 23px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    outline-style: none;
+    border-radius: 25px;
+    background-color: rgb(56, 161, 243);
+    font-size: medium;
+    font-weight: bold;
+    float: right;
+    margin-top: 1%;
+
+}
+
+.Button_suivre
+{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 23px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(0, 62, 231);
+    outline-style: none;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: bold;
+    float: right;
+    margin-right: 2%;
+    border: 1px solid blue;
+    height: min-content;
+
+}
+.Button_suivre:hover
+{
+    background-color: rgb(2, 153, 207);
+}
+
+.Button:hover
+{
+    background-color: rgb(2, 153, 207);
+}
+
+.icon_contact:hover
+{
+    background-color: rgba(145, 167, 175, 0.658);
+    border-radius: 20px;
+}
+
+.test:hover
+{
+    background-color: rgba(145, 167, 175, 0.658);
+    border-radius: 20px;
+
+}
+
+.test
+{
+    float: left;
+    font-size: 1rem;
+    font-size: medium;
+    font-weight: bold;
+    padding: 0 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.test5
+{
+    float: left;
+    font-size: 1rem;
+    font-size: medium;
+    font-weight: bold;
+    padding: 0 25px;
+
+}
+
+
+.accueiltete
+{
+   
+    width: 40%;
+    height: 30px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey;
+    
+
+}
+
+
+.lien
+{
+    text-decoration: none;
+    color: black;
+}
+
+.deconnexion
+{
+    margin-top: 10%;
+}
+
+.pseudo
+{
+    margin-left: 12%;
+    height: 20px;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+
+.box_image
+{
+    height: 86%;
+    width: 12%;
+    margin-bottom: 2%;  
+    margin-left: 2%;
+    width: min-content;
+}
+
+
+
+.iconprofil_tweet
+{
+    margin-left: 15%;
+    height: 20px;
+    width: 20px;
+    padding: 0 3px;
+}
+
+
+
+.titre_Tweet
+{ 
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.Tweet
+{
+    border-bottom:1px solid grey;
+    border-top:1px solid grey;
+    background-color: rgba(255, 255, 255, 0.507);
+    height: 4%;
+    min-width: auto;
+    height: min-content;
+    margin-bottom: 1%;
+
+}
+
+.Tweet:hover
+{
+
+    background-color: rgba(141, 139, 139, 0.336);
+
+
+}
+
+.pseudo_topbar
+{
+        margin-left: 2%;
+        height: 20px;
+        font-size: medium;
+        font-weight: bold;
+        padding-top: 5%;
+        text-decoration: none;
+}
+
+.imageprofil_tweet 
+{
+    width: 50px;
+    height: 50px;
+    border: 1;
+    border-radius: 80px;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.bio
+{
+    margin-left: 15%;
+}
+
+.error
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+
+

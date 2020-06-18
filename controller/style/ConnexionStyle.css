@@ -1,0 +1,100 @@
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+}
+
+
+h1#title {
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.logo
+{
+   margin-left: 50%;
+   margin-right: auto;
+   margin-top: 1%;
+   margin-bottom: 2%;
+   width: 50px;
+   height: 50px;
+
+}
+
+.formulaire 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center ;
+    justify-content: space-around;
+
+}
+
+.input-field {
+    height: 70px;
+    width: 550px;
+    padding: 5px;
+    margin: 10px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: rgb(122, 121, 121);
+    background-color: rgba(221, 219, 219, 0.212);
+    outline-style: none;
+    margin-bottom: 0.5%;
+    border-radius: 2px;
+  }
+
+.Button {
+    border: 0;
+    line-height: 3;
+    padding: 0 230px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    outline-style: none;
+    border-radius: 25px;
+    background-color: rgb(56, 161, 243);
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 0.5%;
+}
+
+.Button:hover
+{
+    background-color: rgb(2, 153, 207);
+}
+
+.inscription
+{
+margin-top: 2%;
+text-align: center;
+}
+
+a
+{
+    color: rgb(2, 153, 207);
+    text-decoration: none;
+    font-size: medium;
+}
+
+a:hover
+{
+    border-bottom: 1px solid;
+}
+
+iframe {
+    object-position: 50% 50%;
+    height: 300px;
+    width: 100px;
+}
+
+.error
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}

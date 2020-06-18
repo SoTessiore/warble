@@ -1,0 +1,387 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-image:url(images/fond.png);
+    background-attachment:fixed;
+}
+    
+    .wrapper
+    {
+        width: auto;
+        height: 100vh;
+        overflow: hidden;
+        background-color: aqua;
+    }
+    
+    .mainbody
+    {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    
+    }
+    
+    .col1
+    {
+        width: 23%;
+        float: left;
+        height: 300px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .col2
+    {
+        width: 40%;
+        margin-left: 30%;
+        min-width: 300px;
+        border: 1px solid grey;
+        background-color: rgba(145, 167, 175, 0.349);
+
+    }
+    
+    
+    .menu_footer ul{
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        list-style:none;
+    }
+    
+    .icon_contact
+    {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .icon_contact2
+    {
+        width: 35px;
+        height: 30px;
+    }
+    
+    .menu_footer li{
+        border-radius: 20px;
+    }
+    
+    .input-field {
+        height: 90px;
+        width: 100%;
+        border-style: none;
+        outline-style: none;
+        resize: none;
+        font-size: 1.8rem;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        margin-top: 8%;
+      }
+    
+      .Button {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 23px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        outline-style: none;
+        border-radius: 25px;
+        background-color: rgb(56, 161, 243);
+        font-size: medium;
+        font-weight: bold;
+        float: right;
+        margin-top: 1%;
+    }
+
+    .Button5 {
+       
+        float: right;
+ 
+    }
+    
+    .Button:hover
+    {
+        background-color: rgb(2, 153, 207);
+    }
+    
+    .icon_contact:hover
+    {
+        background-color: rgba(145, 167, 175, 0.658);
+        border-radius: 20px;
+        
+    }
+    
+    .test:hover
+    {
+        background-color: rgba(145, 167, 175, 0.658);
+        border-radius: 20px;
+    
+    }
+    .test5
+    {
+        float: left;
+        font-size: 1rem;
+        font-size: medium;
+        font-weight: bold;
+        padding: 0 25px;
+
+    }
+    .test
+    {
+        float: left;
+        font-size: 1rem;
+        font-size: medium;
+        font-weight: bold;
+        padding: 0 25px;
+        text-decoration: none;
+        color: black;
+    }
+
+     .lien
+     {
+        text-decoration: none;
+        color: black;
+     }
+    
+    .header
+    {
+        position: fixed;
+    }
+    
+    .accueiltete
+    {
+       
+        width: 40%;
+        height: 30px;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(95, 94, 94);
+    
+    }
+
+    .photoarriere
+    {
+        width: 100%;
+        height: 180px;
+        background-image:url(images/baniere.png);
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .Accueil
+    {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 1%;
+    }
+
+    .imageprofil
+    {
+        width: 130px;
+        height: 130px;
+        border: 1;
+        border-radius: 80px;
+        margin-left: 2%;
+    }
+
+    .infoprofil 
+    {
+        border-bottom: 1px solid rgb(95, 94, 94);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+
+    }
+    .imageprofil_tweet 
+    {
+        width: 50px;
+        height: 50px;
+        border: 1;
+        border-radius: 80px;
+        margin-left: 2%;
+        margin-top: 2%;
+
+    }
+
+    .testa
+    {
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    .abo
+    {
+        text-decoration:none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .abo:hover
+    {
+        color: rgba(37, 36, 36, 0.575);
+    }
+
+    .testaa
+    {
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        font-weight: bold;
+
+    }
+
+    .titre_Tweet
+    {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid rgb(95, 94, 94);
+    }
+
+    .Tweet
+    {
+        background-color: rgba(255, 255, 255, 0.507);
+        height: 4%;
+        min-width: auto;
+        height: min-content;
+    }
+    .pseudo_topbar
+    {
+        margin-left: 2%;
+        height: 20px;
+        font-size: medium;
+        font-weight: bold;
+        padding-top: 5%;
+        text-decoration: none;
+
+    }
+
+    .LIENTOP
+    {
+    text-decoration:none;
+    }
+
+    .pseudo
+    {
+        margin-left: 12%;
+        height: 20px;
+        font-size: medium;
+        font-weight: bold;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        height: min-content;
+    }
+
+    .contenu_tweet
+    {
+
+        margin-left: 12%;
+        height: 1px;
+        height: min-content;
+    }
+    .box_image
+    {
+        height: 86%;
+        width: 12%;
+        display: flex;   
+        align-items: flex-start;
+        justify-content: center;
+        width: min-content;
+        margin-bottom: 2%;  
+        margin-left: 2%;
+    }
+
+    .bar_icon_tweet
+    {
+        height: 20px;
+        border-bottom:1px solid grey;
+        min-width: auto;
+        min-height: auto;
+    }
+
+    .iconprofil_tweet
+    {
+        margin-left: 15%;
+        height: 20px;
+        width: 20px;
+        padding: 0 3px;
+    }
+
+    .iconprofil_tweet:hover
+    {
+        background-color: rgba(145, 167, 175, 0.658);
+        border-radius: 20px;
+        padding: 0 3px;
+    }
+
+    .heure
+    {
+        margin-left: 12%;
+        height: 20px;
+        font-size: small;
+        color: grey;
+        min-width: auto;
+        min-height: auto;
+    }
+
+    .icon_return
+    {
+        width: 30px;
+        height: 30px;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+        
+    .icon_return:hover
+    {
+        background-color: rgba(145, 167, 175, 0.658);
+        border-radius: 20px;
+    }
+
+    .deconnexion
+    {
+        margin-top: 10%;
+    }
+
+    .button_tweet
+    {
+        background: none;
+        border: none;
+        outline: none;
+        margin-left: 1%;
+        height: 20px;
+        width: 20px;
+        padding: 0 3px;
+    }
+
+    .button_tweet1
+    {
+        background: none;
+        border: none;
+        outline: none;
+        float: right;
+        margin-right: 2%;
+        margin-top: 2%;
+        height: 20px;
+        width: 20px;
+        padding: 0 3px;
+
+   
+    }
+
+.error
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
